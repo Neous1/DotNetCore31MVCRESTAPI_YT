@@ -36,9 +36,20 @@ namespace Commander.Controllers
             var commandItem = _repository.GetCommandById(id);
             if (commandItem != null)
             {
-                return Ok(_mapper.Map<CommandReadDto>(commandItem));                
+                return Ok(_mapper.Map<CommandReadDto>(commandItem));
             }
             return NotFound();
+        }
+
+        //POST api/commands
+        [HttpPost]
+        public ActionResult<CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto)
+        {
+            var commandModel = _mapper.Map<Command>(commandCreateDto);
+            _repository.CreateCommand(commandModel);
+            _repository.SaveChanges();
+            
+            return Ok(commandModel);
         }
 
     }
