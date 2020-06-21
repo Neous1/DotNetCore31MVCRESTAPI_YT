@@ -11,5 +11,6 @@ namespace Commander.Data
         //return a single command
         Command GetCommandById(int id);
         void CreateCommand(Command command);
+        void UpdateCommand(Command command);
     }
 }
