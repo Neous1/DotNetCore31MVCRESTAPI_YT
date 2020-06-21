@@ -52,3 +52,7 @@ C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\
 C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
 C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ynchonon\Documents\dev\youtube\DotNetCore31MVCRESTAPI_YT\Commander\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
