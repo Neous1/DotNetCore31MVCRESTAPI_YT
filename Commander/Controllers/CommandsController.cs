@@ -67,7 +67,7 @@ namespace Commander.Controllers
             _mapper.Map(commandUpdateDto, commandModelFromRepo);
             _repository.UpdateCommand(commandModelFromRepo);
             _repository.SaveChanges();
-            return NotFound();
+            return NoContent();
 
         }
 
